@@ -41,25 +41,37 @@ AgentX is an AI yield optimization platform for the MultiversX ecosystem. It was
 ### 1️⃣ Smart Contracts 
 
 Language: Rust
+
 Framework: MultiversX Smart Contract Rust framework
+
 SDKs: multiversx-sc (for smart contracts)
+
 Build Tool: multiversx-sc-meta (for contract metadata)
+
 Testing: Rust unit tests + MultiversX CLI
 
 ### 2️⃣ Backend
 
 Languages: TypeScript (Node.js), Go, Python
+
 SDKs: MultiversX SDK (sdk-core, sdk-network-providers)
 
 ### 3️⃣ Frontend
 
 Framework: React + TypeScript
+
 State Management: React Context API
+
 Styling: Tailwind CSS
+
 Routing: React Router
+
 Blockchain Integration: sdk-core, sdk-network-providers (for fetching smart contract data)
+
 Data Visualization: Recharts / Chart.js (for analytics dashboards)
+
 Icons: Lucide React
+
 Date Handling: date-fns (for formatting timestamps from blockchain transactions)
 
 ## 📊 Supported Protocols
