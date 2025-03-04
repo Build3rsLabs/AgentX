@@ -1,21 +1,19 @@
-# AgentX - AI-Powered Yield Optimization Platform
+# AgentX - AI Yield Optimization Protocol
 
-![AgentX Banner](https://images.unsplash.com/photo-1639762681057-408e52192e55?q=80&w=2232&auto=format&fit=crop)
+## TL,DR
 
-## Overview
-
-AgentX is an AI-powered yield optimization platform for the MultiversX ecosystem. It helps users maximize their DeFi returns while managing risk through automated strategies and personalized recommendations.
+AgentX is an AI yield optimization platform for the MultiversX ecosystem. It was built by us to help users maximize their DeFi returns while managing risk with automated strategies and chat recommendations.
 
 ## 🚀 Features
 
-### AI-Powered Yield Assistant
+### AI Yield Assistant
 - Natural language interface for personalized recommendations
-- Context-aware conversations about yield opportunities
+- Context conversations about yield opportunities
 - Risk-based portfolio suggestions
 - Educational content on DeFi concepts
 
-### Comprehensive Protocol Explorer
-- Compare TVL, APY, and risk levels across protocols
+### Protocol Explorer
+- Compare TVL, APY and risk levels across protocols
 - Filter by risk preference or token type
 - Detailed protocol information and analytics
 - Direct access to protocol websites
@@ -26,13 +24,13 @@ AgentX is an AI-powered yield optimization platform for the MultiversX ecosystem
 - Performance tracking and analytics
 - Deposit and withdrawal management
 
-### Advanced Strategy Selection
+### Strategy Selection
 - Choose from Conservative, Balanced, or Aggressive strategies
 - Customizable rebalancing frequency
-- Risk-appropriate yield targets
+- Risk appropriate yield targets
 - Strategy performance monitoring
 
-### Real-time Analytics
+### Live Analytics
 - Portfolio performance tracking
 - Historical yield comparisons
 - Risk assessment metrics
@@ -40,14 +38,29 @@ AgentX is an AI-powered yield optimization platform for the MultiversX ecosystem
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: React, TypeScript, Tailwind CSS
-- **Blockchain Integration**: MultiversX SDK (sdk-core, sdk-network-providers)
-- **Backend**: Rust with ElizaOS for secure blockchain operations
-- **Data Visualization**: Recharts, Chart.js
-- **State Management**: React Context API
-- **Routing**: React Router
-- **Icons**: Lucide React
-- **Date Handling**: date-fns
+### 1️⃣ Smart Contracts 
+
+Language: Rust
+Framework: MultiversX Smart Contract Rust framework
+SDKs: multiversx-sc (for smart contracts)
+Build Tool: multiversx-sc-meta (for contract metadata)
+Testing: Rust unit tests + MultiversX CLI
+
+### 2️⃣ Backend
+
+Languages: TypeScript (Node.js), Go, Python
+SDKs: MultiversX SDK (sdk-core, sdk-network-providers)
+
+### 3️⃣ Frontend
+
+Framework: React + TypeScript
+State Management: React Context API
+Styling: Tailwind CSS
+Routing: React Router
+Blockchain Integration: sdk-core, sdk-network-providers (for fetching smart contract data)
+Data Visualization: Recharts / Chart.js (for analytics dashboards)
+Icons: Lucide React
+Date Handling: date-fns (for formatting timestamps from blockchain transactions)
 
 ## 📊 Supported Protocols
 
@@ -158,8 +171,8 @@ AgentX leverages ElizaOS, a specialized Rust-based operating system designed for
 
 ### ElizaOS Features
 
-- **Secure Transaction Execution**: ElizaOS provides a sandboxed environment for transaction creation and signing, ensuring user funds remain secure.
-- **Protocol-Specific Adapters**: Custom-built adapters for each supported DeFi protocol enable optimized interactions with smart contracts.
+- **Transaction Execution**: ElizaOS provides a sandboxed environment for transaction creation and signing, ensuring user funds remain secure.
+- **Protocol Adapters**: Custom-built adapters for each supported DeFi protocol enable optimized interactions with smart contracts.
 - **Yield Optimization Engine**: Advanced algorithms continuously monitor and calculate optimal yield strategies across the MultiversX ecosystem.
 - **Gas Optimization**: Intelligent gas price management ensures transactions are processed efficiently without overpaying fees.
 - **Rebalancing Logic**: Sophisticated rebalancing algorithms determine the optimal time to rebalance positions based on gas costs, impermanent loss risk, and potential yield improvements.
@@ -176,8 +189,8 @@ The ElizaOS integration consists of several key components:
 
 ### Security Measures
 
-- **Non-Custodial Design**: ElizaOS never takes custody of user funds; all operations are performed through user-authorized transactions.
-- **Secure Enclave Integration**: For hardware wallet users, ElizaOS integrates with secure enclaves for transaction signing.
+- **Non Custodial Design**: ElizaOS never takes custody of user funds; all operations are performed through user-authorized transactions.
+- **Enclave Integration**: For hardware wallet users, ElizaOS integrates with secure enclaves for transaction signing.
 - **Audit Trail**: Comprehensive logging of all operations for transparency and accountability.
 - **Rate Limiting**: Protection against potential attack vectors through intelligent rate limiting.
 
